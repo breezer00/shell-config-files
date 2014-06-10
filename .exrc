@@ -1,4 +1,6 @@
 set nocompatible              " be iMproved, required
+filetype on                   " Added to solve a mythical non-zero return
+                              " status when exiting vi
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
