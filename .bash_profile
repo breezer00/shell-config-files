@@ -1,5 +1,6 @@
 export BASH_CONF="bash_profile"
-
+# for latex
+export PATH=/usr/texbin:$PATH
 export PATH=/usr/local/bin:$PATH
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
